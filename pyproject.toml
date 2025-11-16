@@ -22,6 +22,7 @@ dev = [
 [tool.ruff]
 line-length = 79
 target-version = "py311"
+exclude = ["**/migrations/**"]
 
 [tool.ruff.lint]
 select = [
